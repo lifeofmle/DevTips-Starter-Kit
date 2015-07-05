@@ -1,5 +1,5 @@
 # Modification
-- For learning purposes, use SCSS instead of Sass for learning purposes
+- For learning purposes, using SCSS instead of Sass for learning purposes
 
 # DevTips-Starter-Kit
 
