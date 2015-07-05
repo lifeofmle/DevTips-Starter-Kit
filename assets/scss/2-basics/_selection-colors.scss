@@ -1,3 +1,5 @@
+@import '../variables';
+
 ::selection {
   background: $selection-color;
 }
@@ -17,3 +19,4 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $selection-color;
 }
+

@@ -1,8 +1,37 @@
+@import '1-tools/colours';
+
 // Font variables
-$font-stack-sans: 'Fira Sans', sans-serif;
+$font-stack-sans: 'Fira Sans';
 $font-stack-sans-bold: "";
-$font-stack-mono: "";
+$font-stack-mono: 'Fira Mono', monospace;
 
 // Colours
 $body-color: #666;
 $body-background-color: white;
+$page-body-background-color: silver;
+
+$pre-color: darken($silver, 5%);
+
+$button-color: #555;
+$button-background-color: transparent;
+$button-border-color: #bbb;
+
+$button-color-hover: #333;
+$button-border-color-hover: #888;
+
+$link-color: #0074D9;
+$link-color-hover: lighten($link-color, 20%);
+
+$selection-color: #FFF498;
+$img-selection-background-color: transparent;
+
+$heading-color: #222;
+
+$line-color: #ddd;
+
+$fork-tag-color: white;
+$fork-tag-background-color: blue;
+$fork-tag-color-hover: white;
+
+$section-background-color: rgba(255,255,255,0.7);
+$section-shadow-color: rgba(0,0,0,0.1);
