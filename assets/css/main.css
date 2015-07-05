@@ -3,19 +3,22 @@
   font-style: normal;
   font-weight: 400;
   src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
 @font-face {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 700;
   src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
 @font-face {
   font-family: 'Fira Mono';
   font-style: normal;
   font-weight: 400;
   src: local("Fira Mono"), local("FiraMono"), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -201,7 +204,7 @@ body {
   background-color: white;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans";
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -225,7 +228,8 @@ a {
   color: #0074D9;
   text-decoration: none;
   outline: 0; }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: #40a6ff; }
 
 .gigantic, .huge, .large, .bigger, .big,
@@ -288,7 +292,7 @@ input[type="button"] {
   font-size: 11px;
   font-weight: 600;
   line-height: 38px;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -297,7 +301,9 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
-  .button:hover, .button:active, .button:focus,
+  .button:hover,
+  .button:active,
+  .button:focus,
   button:hover,
   button:active,
   button:focus,
@@ -337,7 +343,7 @@ input[type="button"] {
   position: absolute;
   top: 10px;
   right: -10px;
-  background: #0074D9;
+  background: blue;
   color: white;
   padding: 2px 6px;
   transition: all 0.3s ease-in-out;
@@ -357,6 +363,7 @@ input[type="button"] {
     transform: rotate(8deg); }
   100% {
     transform: rotate(0deg); } }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -376,7 +383,7 @@ input[type="button"] {
 
 body {
   margin: 10px;
-  background-color: #ddd;
+  background-color: silver;
   overflow-x: hidden; }
 
 .page-home {
